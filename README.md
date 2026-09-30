@@ -1,70 +1,101 @@
-# Restaurant Order 🍔
+# 🍕 Restaurant Order System
 
-A simple restaurant ordering program written in Python.
+A simple Python-based restaurant ordering system built as a beginner-friendly project.
 
-## Description
+## 📌 About the Project
 
-This project is a simple console-based restaurant ordering system.
+**Restaurant Order System** is a command-line Python program that allows users to:
 
-The program asks the customer for their name, receives their food orders and quantities, calculates the total price, and displays the order information.
+* Enter their name
+* View the restaurant menu
+* Select multiple food items
+* Enter quantities for each item
+* Calculate the total price
+* View an order summary
 
-## Menu
+The project is designed to practice fundamental Python concepts such as dictionaries, functions, loops, conditions, user input, string methods, and basic Git/GitHub workflow.
 
-| Food   | Price |
+## 🍔 Menu
+
+| Item   | Price |
 | ------ | ----: |
 | Pizza  |  1800 |
 | Burger |  1500 |
 | Hotdog |  1000 |
 
-## Features
+## 🚀 How to Run
 
-* Get the customer's name
-* Take multiple food orders
-* Enter the quantity of each food
-* Calculate the total price
-* Display the final order information
+Make sure Python is installed on your computer.
 
-## Requirements
-
-* Python 3
-* VS Code
-
-## How to Run
-
-Open the project folder in VS Code and run:
+Clone the repository:
 
 ```bash
-python main.py
+git clone https://github.com/mt09935571691-ship-it/RestaurantOrder.git
 ```
 
-## Example
+Go to the project folder:
+
+```bash
+cd RestaurantOrder
+```
+
+Run the program:
+
+```bash
+python Remake.py
+```
+
+## 💻 Example
 
 ```text
+===== RESTAURANT ORDER SYSTEM =====
+
 Enter your name:
 Matin
 
 Welcome Matin
 
+===== MENU =====
+Pizza      1800
+Burger     1500
+Hotdog     1000
+
 Enter your order:
 pizza burger
 
-Enter the quantity:
+Enter quantities:
 2 1
 
-Name: Matin
+===== Order Summary =====
+-------------------------
+Customer: Matin
 Order: ['pizza', 'burger']
 Total: 5100
+========================
 ```
 
-## Project Structure
+## 🧠 Python Concepts Used
+
+* Variables
+* Dictionaries
+* Functions
+* `input()`
+* `print()`
+* `for` loops
+* `if` statements
+* `len()`
+* `split()`
+* `lower()`
+* f-strings
+* Dictionary `.items()`
+* Basic input validation
+
+## 📁 Project Files
 
 ```text
 RestaurantOrder/
-├── main.py
-└── README.md
+├── Original.py
+├── Remake.py
+├── README.md
+└── .v
 ```
-
-## Technologies
-
-* Python
-* VS Code
