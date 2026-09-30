@@ -94,8 +94,7 @@ Total: 5100
 
 ```text
 RestaurantOrder/
-├── Original.py
-├── Remake.py
+├── Restaurant.py
 ├── README.md
 └── .v
 ```
